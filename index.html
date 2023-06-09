@@ -3,14 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
         <title>mHammy Portfolio</title>
     </head>
 
-    <body id="body-container">
+    <body>
         <header id="header-container">
             <h1>mHammy Portfolio</h1>
+            <!-- Nav area -->
             <nav id="nav-container">
                 <ul>
                     <li><a href="#about-me-container">About Me</a></li>
@@ -20,6 +22,7 @@
             </nav>
         </header>
         <main id="main-container">
+            <!-- About me section -->
             <article id="about-me-container">
                 <h2 class="article-header">About Me</h2>
                 <section id="about-paragraph">
@@ -29,23 +32,37 @@
                     <img id="about-me-picture" src="./assets/images/about-me-picture.jpg" alt="Picture of mHammy kissing a sasquatch"/>
                 </figure>
             </article>
+            <!-- My work section -->
             <article id="my-work-container">
                 <h2 class="article-header">My Work</h2>
                 <section id="work-display-box">
                     <div id="big-project">
-                        <a href="https://mhammy.github.io/prework-study-guide/"><img id="big-project-img" src="./assets/images/pre-work-image2.png" height="321" width="805" alt="My first project"> </a>
+                        <figure>
+                            <figcaption><strong>Pre-work Study Guide</strong></figcaption>
+                            <a href="https://mhammy.github.io/prework-study-guide/" target="_blank"><img id="big-project-img" src="./assets/images/pre-work-image2.png"  alt="My first project"> </a>
+                        </figure>
                     </div>
-                    <div class="small-project sp1"> 
-                        <img src="./assets/images/300x150-placeholder.png" alt="Placeholder image of a small piece of work" />
+                    <div class="small-project"> 
+                        <figure>
+                            <figcaption><strong>Placeholder 1</strong></figcaption>
+                            <a href="https://github.com/mHammy/class-playground" target="_blank"><img id="sp1" src="https://place-puppy.com/350x200" alt="Placeholder image of a small piece of work"> </a>
+                        </figure>
                     </div>    
-                    <div class="small-project sp2">
-                        <img src="./assets/images/300x150-placeholder.png" alt="Placeholder image of a small piece of work" />
+                    <div class="small-project">
+                        <figure>
+                            <figcaption><strong>Placeholder 2</strong></figcaption>
+                            <a href="https://github.com/mHammy/c1-horiseon-refactor" target="_blank"><img id="sp2" src="http://placekitten.com/350/200" alt="Placeholder image of a small piece of work"> </a>
+                        </figure>
                     </div>  
-                    <div class="small-project sp3">
-                        <img src="./assets/images/300x150-placeholder.png" alt="Placeholder image of a small piece of work" />
+                    <div class="small-project">
+                        <figure>
+                            <figcaption><strong>Placeholder 3</strong></figcaption>
+                            <a href="https://github.com/mHammy/first-day-repo" target="_blank"><img id="sp3" src="https://place-puppy.com/350x200" alt="Placeholder image of a small piece of work"> </a>
+                        </figure>
                     </div>
                 </section>
             </article>
+            <!-- Contact me section -->
             <article id="contact-me-container">
                 <h2 class="article-header">Contact Me</h2>
                 <section>
