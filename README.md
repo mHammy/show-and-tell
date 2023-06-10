@@ -6,11 +6,21 @@
 - This application was a ground up project, teaching me new methods of coding along the way.
 - I have done my best to keep the entire page accessibility compliant.
 
-![Image of the full website application](./assets/images/Full%20application%20image.png)
+## Desktop View
+
+<img src="./assets/images/Full%20application%20image.png" alt="Full desktop view of the application" width="50%" height="50%">
+
+## Tablet View
+
+<img src="./assets/images/Full-application-tablet.png" alt="Tablet view of the application" width="50%" height="50%">
+
+## Mobile View
+
+<img src="./assets/images/Full-application-mobile.png" alt="Phone view of the application" width="50%" height="50%">
 
 ## Link to live application
 
-
+https://mhammy.github.io/show-and-tell/
 
 ## Usage
 
