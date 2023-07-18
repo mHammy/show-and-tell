@@ -166,7 +166,7 @@ nav a {
 .small-project {
     display: inline-block;
     min-width: 0px;
-    max-width: 25%;
+    max-width: 30%;
 
 }
 
@@ -265,6 +265,10 @@ nav a:hover {
 }
 
 #sp3:hover {
+    box-shadow: inset 10px 10px 10px black;
+}
+
+#sp4:hover {
     box-shadow: inset 10px 10px 10px black;
 }
 
